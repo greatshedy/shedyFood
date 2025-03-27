@@ -8,7 +8,7 @@ function Nav() {
     console.log(isOpen)
   return (
     <div className='Nav'>
-        <h1 className='logo'>food</h1>
+        <h1 className='logo'>foodboy</h1>
 
         <div className='pc'>
             <ul>
