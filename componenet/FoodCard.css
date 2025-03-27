@@ -1,0 +1,43 @@
+.FoodCarddiv{
+    height: 500px;
+    width: 20%;
+    /* background-color: red; */
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0px 0px 20px lightgray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.FoodCardimg{
+    height: 60%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+@media (max-width:500px) {
+    .FoodCarddiv{
+        height: 300px;
+        width: 40%;
+        /* background-color: red; */
+        margin-bottom: 20px;
+        padding: 10px;
+        box-shadow: 0px 0px 20px lightgray;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .FoodCarddiv h2{
+        font-size: 15px;
+    }
+
+    .FoodCarddiv p{
+        font-size: 8 px;
+    }
+
+    .FoodCarddiv h3{
+        font-size: 15px;
+    }
+
+
+}

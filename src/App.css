@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+}
+.cardFood{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.detailsdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.detailsdiv5{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.lottie{
+    height: 300px;
+    width: 300px;
+    margin-top: 100px;
+}
+
+.detailsdiv1{
+   height: 90%;
+   width: 45%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+
+.detailsdiv1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    
+}
+
+.detailsdiv2{
+    height: 90%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 50px;
+    justify-content: center;
+    
+ }
+ .divee{
+    display: flex;
+    flex-direction:column ;
+    height: 100vh;
+    overflow: hidden;
+ }
+
+ .divee1{
+    display: flex;
+    flex-direction:column ;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    gap: 20px ;
+ }
+ 
+ .caroul{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+ }
+
+ .video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    object-fit: cover;
+ }
+
+
+ .divee1 h1{
+    font-size: 60px;
+    color: white;
+    font-family: "Merienda";
+ }
+
+ .divee1 p{
+    font-size: 20px;
+    color: lightgray;
+    font-family: "poppins";
+ }
+
+ .divee2{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    gap: 20px;
+ }
+
+ .divee2 button{
+    height: 50px;
+    width: 150px;
+    color: orange;
+    border: 2px solid lightgray;
+    border-radius: 50px;
+    background-color: transparent;
+
+ }
+
+ .divee3{
+    margin-top: 25vh;
+    margin-left: 150px;
+ }
+
+ .divee6{
+   display: flex;
+   flex-direction: column;
+   padding: 100px 150px;
+   /* background-color: red; */
+   gap:20px;
+   background: url("./assets/bg.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+ }
+
+ .divee6 p{
+   letter-spacing: 5px;
+   color: red;
+   font-size: 20px;
+ }
+
+ .divee6 h1{
+   letter-spacing: 5px;
+   color:orange;
+ }
+
+ .carodiv{
+   height: 300px;
+   width: 80%;
+   background: url("./assets/bg.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   border-radius: 10px;
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   align-items: center;
+   box-shadow: 0px 0px 10px lightgray;
+   margin: 20px;
+ }
+
+ .carodiv img{
+   height: 80%;
+   width: 100%;
+   object-fit: cover;
+ }
+ .carodiv h2{
+   color:orange;
+   font-family: "Merienda";
+   font-size: 25px;
+ }
+
+.food{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  /* align-items: center; */
+}
+.food input{
+  margin-bottom: 50px;
+  width: 50%;
+  outline: none;
+  height: 50px;
+  border-radius: 10px;
+  padding: 0px 10px;
+  background-color: transparent;
+  border: 2px solid orange;
+  color: orange;
+}
+
+.foodmenudiv{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+@media(max-width:500px){
+.divee3{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+margin: 20px;
+margin-top: 15vh;
+/* background-color: red; */
+justify-content: center;
+align-items: center;
+}
+
+.divee3 h1{
+  font-size: 50px;
+  text-align: center;
+}
+
+.divee3 p{
+  font-size: 22px;
+  text-align: center;
+}
+.divee6{
+padding: 10px;
+}
+
+.detailsdiv{
+  display: flex;
+}
+
+.detailsdiv5{
+  flex-direction: column;
+  padding: 10px 0px;
+}
+
+.detailsdiv1{
+  height: 90%;
+  width: 100%;
+}
+
+.detailsdiv2{
+  height: 90%;
+  width: 90%;
+}
+
+.detailsdiv2 div{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.detailsdiv2 a{
+  text-decoration: none;
+  color: orange;
+
+}
+ }

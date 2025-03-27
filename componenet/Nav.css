@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+}
+
+.Nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+}
+
+.pc{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+   font-family: "Merienda";
+   font-size: 50px;
+   color: orange;
+}
+
+.Nav ul{
+    display: flex;
+    gap: 20px;
+}
+ .link{
+    text-decoration: none;
+    color: orange;
+    font-size: 20px;
+ }
+
+ .Navdiv{
+    display: flex;
+    gap: 20px;
+    width: 40%;
+    height: 40px;
+ }
+
+ /* .Navdiv input{
+    width: 100%;
+    outline: none;
+    border-radius: 10px;
+    padding: 0px 10px;
+    background-color: transparent;
+    border: 2px solid orange;
+    color: orange;
+ } */
+button{
+    height: 50px;
+    width: 150px;
+    color: orange;
+    border: 2px solid lightgray;
+    border-radius: 50px;
+    background-color: transparent;
+    transition: 0.8s;
+}
+
+button:hover{
+    border: none;
+    color: orange;
+    background-color: white;
+    transition: 0.8s;
+}
+ .hide{
+    display: none;
+ }
+
+ .linkmobile{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+ }
+ .show{
+    display: none;
+ }
+
+ .mobile{
+    display: none;
+ }
+
+ @media(max-width:500px){
+    .mobile{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+
+    .pc{
+        display: none;
+    }
+
+    .Nav{
+        display: flex;
+        padding: 0px 10px;
+        justify-content: space-between;
+        /* background-color: blue; */
+    }
+
+    .show{
+        display: flex;
+        width: 90%;
+        position: absolute;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        right: 0;
+        top: 0;
+        padding: 20px 20px;
+        flex-direction: column;
+        background-color:#FF8C00;
+        box-shadow: 0px 0px 10px black;
+        animation-name: open;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+        gap: 20px;
+     
+    }
+
+
+    .Navdivmobile{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        /* background-color: blue; */
+    }
+    
+    .Navdivmobile button {
+       border: 2px solid white;
+       height: 40px;
+       color: white;
+     }
+
+     .Navdivmobile button:hover {
+        
+        background-color: white;
+        color: orange;
+      }
+
+
+    .show ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .show1{
+        align-self: flex-end;
+    }
+
+    @keyframes open {
+        0%{
+            transform: translate(50%);
+            opacity: 0;
+        }
+        100%{
+            transform: translate(0%); 
+            opacity: 1;
+        }
+    }
+
+    @keyframes close {
+        0%{
+            transform: translate(0%);
+            opacity: 1;
+        }
+        100%{
+            transform: translate(50%); 
+            opacity: 0;
+        }
+    }
+
+   
+    
+ }
